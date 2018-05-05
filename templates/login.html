@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content%}
+<title>Blogz</title>
+ 
+<body>
+    <h1> Log in to Your Account </h1>
+<form method = 'post'/> 
+<label>
+    Username:
+    <input type='text' name='username'/>
+
+</label>
+<label>
+    <p>Password:
+    <input type= 'text' name  = 'password'>
+</label>
+<p></p><input type="submit" value='Submit Entry'/></p>
+</p>
+</form>
+<hr/>
+<p>{{error_message}}</p>
+
+</body>
+</html>
+
+{% endblock %}
